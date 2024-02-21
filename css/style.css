@@ -121,7 +121,7 @@ button:hover{
     font-weight: bold;
 }
 
-.meu a::after{
+.menu a::after{
     content: '';
     position: absolute;
     width: 0%;
@@ -131,18 +131,51 @@ button:hover{
     transition: 0.3s ease;
 }
 
-.meu a:hover{
+.menu a:hover{
     color: #ec1321;
     transition: 0.2s ease;
 }
 
-.meu a:hover:after{
+.menu a:hover:after{
     width: 100%;
     transition: 0.2s ease;
 }
 img{
-    height: 600px;
+    height: 500px;
     right: 15%;
     top: 20%;
     position: absolute;
+}
+.media-shop{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.media-shop svg{
+    width: 40px;
+}
+
+.media-shop path{
+    fill: #fff;
+}
+
+.media-shop a{
+    margin: 20px;
+}
+.media-shop a:nth-child(1) svg{
+    width: 30px;
+    
+}
+.media-shop a:nth-child(2) svg{
+    margin-top: -5px;
+    width: 25px;
+}
+.media-shop a:nth-child(3) svg{
+    width: 25px;
 }
