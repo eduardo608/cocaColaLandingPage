@@ -141,8 +141,8 @@ button:hover{
     transition: 0.2s ease;
 }
 img{
-    height: 500px;
-    right: 13%;
-    top: 17%;
+    height: 600px;
+    right: 15%;
+    top: 20%;
     position: absolute;
 }
